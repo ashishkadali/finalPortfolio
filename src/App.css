@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +37,154 @@
     transform: rotate(360deg);
   }
 }
+
+body, html{
+  font-size: 16px;
+  color: black;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+img{
+  max-width: 100%;
+
+}
+#root{height: 100%;}
+/* hedaer css*/
+.header{
+  background-color: #ddd;
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+}
+nav.navbar ul li{
+  margin: 0px 20px;
+}
+nav.navbar ul.navbar-nav li a.nav-link{
+  transition: all 0.5s ease;
+}
+nav.navbar ul.navbar-nav li.active a.nav-link{
+  color: blue;
+  transform: scale(1.2);
+}
+nav.navbar ul.navbar-nav li:hover a.nav-link{
+  color: blue;
+  transform: scale(1.2);
+}
+.navbar-brand{
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+
+.banner-row{
+  padding: 100px 0px;
+}
+.banner-row  h1 {
+  font-weight: 900;
+}
+.banner-row  h1 span {
+  color: blue;
+  font-family: "Dancing Script", cursive;
+}
+.banner-row p{
+  font-size: 20px;
+}
+
+.listul{
+  list-style-type: none;
+
+}
+
+.listul li a{
+    font-size: 30px;
+    background-color: #000;
+    color: white;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageClass{
+  margin: 0px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+}
+
+.about-row{
+  padding: 100px 0px;
+    background-color: #dcf2ef;
+}
+.about-row img {
+  height: 400px;
+}
+.about-row h2{
+  font-weight: 700;
+}
+.about-row button{
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  padding: 15px 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.Projects-row {
+  padding: 50px 0;
+}
+
+.project-colours{
+  background-color: #dcf2ef;
+}
+.Projects-row .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Horizontally distribute items */
+  gap: 20px; /* Add some space between items */
+}
+.Projects-row .container > div {
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+  max-width: 400px; /* Set maximum width for each project */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Projects-row .container h5 {
+  margin-top: 0;
+}
+
+
+.contactButton{
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  padding: 15px 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.contactPage {   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .Projects-row .container > div {
+    flex-basis: calc(50% - 20px); /* Two items per row */
+  }
+}
+@media screen and (max-width: 480px) {
+  .Projects-row .container > div {
+    flex-basis: calc(100% - 20px); /* One item per row */
+  }
+}
+
