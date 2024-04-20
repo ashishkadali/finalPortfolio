@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import profile from "./images/MainAfter.webp";
 import { projectdata } from "./ProjectsData";
 import { experience } from "./Expereince";
 import profile1 from "./images/profile1.jpeg";
 import profile2 from "./images/Profile2.jpeg";
+
 // import resumePDf from "./images/"
 function App() {
   const DownloadResume = () => {
@@ -100,7 +99,7 @@ function App() {
                 </ul>
               </div>
               <div className="col-md-6 d-flex align-items-center  ">
-                <img className="imageClass" src={profile1} />
+                <img className="imageClass" src={profile1} alt=""/>
               </div>
             </div>
           </div>
@@ -112,7 +111,7 @@ function App() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4 d-flex align-items-center  ">
-                <img className="" src={profile2} />
+                <img className="" src={profile2} alt="" />
               </div>
               <div className="col-md-6 col-md-offset-1">
                 <p>About Me</p>
