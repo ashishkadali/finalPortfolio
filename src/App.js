@@ -87,12 +87,12 @@ function App() {
                 </p>
                 <ul className=" listul d-flex m-0 p-0">
                   <li className="m-2 p-0">
-                    <a href="">
+                    <a href="https://github.com/ashishkadali">
                       <i class="fa-brands fa-github"></i>
                     </a>
                   </li>
                   <li className="m-2 p-0">
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/kadali-ashish/">
                       <i class="fa-brands fa-linkedin"></i>
                     </a>
                   </li>
