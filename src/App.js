@@ -223,6 +223,7 @@ function App() {
                 <div className="mb-4 mt-2">
                   <iframe
                     className="embed-responsive-item"
+                    title="Resume"
                     src="https://drive.google.com/file/d/1Ftj8qy_Cwq5gr6Q0zA5-APhQDcADTwPg/preview"
                     allowFullScreen
                     width="100%"
