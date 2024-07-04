@@ -30,4 +30,12 @@ export const experience = [
       "Done some research report based on the requirment of company"
     ],
   },
+  {
+    companyName: "Sworld Solution Private Limited",
+    Role: "Internship",
+    years: "oct 2021 - dev 2021",
+    discription: [
+      "Worked on shopping application of sworld company and also admin pannel of application"
+    ],
+  },
 ];

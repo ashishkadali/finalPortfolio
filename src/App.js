@@ -8,7 +8,7 @@ import profile2 from "./images/Profile2.jpeg";
 function App() {
   const DownloadResume = () => {
     const url =
-      "https://drive.google.com/uc?export=download&id=1Ftj8qy_Cwq5gr6Q0zA5-APhQDcADTwPg"; // Direct download link
+    "https://drive.google.com/uc?export=download&id=1nw7S0vITg8yXNQsZryPu2CWtRISLVTc2"; //
     const anchor = document.createElement("a");
     anchor.href = url;
     anchor.download = "AshishKadali_Resume.pdf";
@@ -81,7 +81,7 @@ function App() {
                   Ashish <span>Kadali</span>
                 </h1>
                 <p>
-                  2+ years of experienced MERN stack developer| crafting
+                  3 years of experienced MERN stack developer| crafting
                   seamless user experirnces with javascript, React.js, Node.js,
                   MongoDB, Redis, Socket.io and Expres.js
                 </p>
@@ -223,7 +223,7 @@ function App() {
                   <iframe
                     className="embed-responsive-item"
                     title="Resume"
-                    src="https://drive.google.com/file/d/1Ftj8qy_Cwq5gr6Q0zA5-APhQDcADTwPg/preview"
+                    src="https://drive.google.com/file/d/1nw7S0vITg8yXNQsZryPu2CWtRISLVTc2/preview"
                     allowFullScreen
                     width="100%"
                     height="400px"
